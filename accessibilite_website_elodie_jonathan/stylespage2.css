@@ -278,9 +278,24 @@ footer h4 {
 /* Pour mobile */
 @media screen and (max-width: 1000px) {
   /* Disparition image pour ordi et taille image mobile */
+  .nav {
+    display: flex;
+    height: 6rem;
+  }
+
   .nav img {
     width: 50vw;
     padding-top: 2rem;
+  }
+
+  .nav h1 {
+    padding: 2.5rem 0rem 0rem;
+    font-size: 1rem;
+  }
+
+  .menu-btn {
+    width: 10vw;
+    font-size: 2rem;
   }
 
 
@@ -322,21 +337,6 @@ footer h4 {
     flex-direction: row;
     margin-top: 2rem;
     justify-content: space-around;
-  }
-
-  /* Taille titre */
-  .nav h1 {
-    font-size: 1rem;
-    padding-top: 5vh;
-  }
-
-  /* Bouton */
-  .menu-btn {
-    width: 7%;
-    text-align: center;
-    align-self: flex-end;
-    padding: 0;
-    font-size: 2rem;
   }
 
   /* Texte du header */
