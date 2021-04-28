@@ -337,6 +337,7 @@ footer h4 {
     flex-direction: row;
     margin-top: 2rem;
     justify-content: space-around;
+    margin-bottom: 2rem;
   }
 
   /* Texte du header */
