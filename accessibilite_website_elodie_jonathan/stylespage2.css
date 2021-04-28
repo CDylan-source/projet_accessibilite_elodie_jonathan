@@ -279,7 +279,6 @@ footer h4 {
 @media screen and (max-width: 1000px) {
   /* Disparition image pour ordi et taille image mobile */
   .nav {
-    display: flex;
     height: 6rem;
   }
 
@@ -297,7 +296,6 @@ footer h4 {
     width: 10vw;
     font-size: 2rem;
   }
-
 
   /* Texte principal */
   .header ul {
@@ -363,12 +361,12 @@ footer h4 {
   }
 
   /* Taille premier header et marges */
-  .nav {
-    height: 6rem;
-    width: 100vw;
-  }
 
   .menu-links {
     top: 6rem;
+  }
+
+  footer h4 {
+    font-size: 0.75rem;
   }
 }
