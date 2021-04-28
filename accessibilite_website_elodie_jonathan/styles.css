@@ -121,7 +121,7 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: column;
   color: white;
-  padding: 2rem 1rem 6rem;
+  padding: 2rem 1rem 2.75rem;
 }
 
 .header h2 {
@@ -231,15 +231,16 @@ footer h4 {
   }
 
   .menu-links {
-    top: 10rem;
+    top: 6rem;
   }
 
   .header h2 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .header p {
     font-size: 0.9rem;
+    padding-top: 2rem;
   }
 
   .stats-section p {
